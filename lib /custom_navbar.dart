@@ -2,7 +2,7 @@ library custom_navbar;
 
 import 'package:flutter/material.dart';
 
-class CustomNavBar extends StatefulWidget {
+class FloatingNavBar extends StatefulWidget {
   final int initialIndex;
 
   final List<Icon> icons;
@@ -61,7 +61,7 @@ class CustomNavBar extends StatefulWidget {
   /// Curve for all animations
   final Curve animationCurve;
 
-  const CustomNavBar({
+  const FloatingNavBar({
     super.key,
     required this.initialIndex,
     required this.icons,
@@ -86,10 +86,10 @@ class CustomNavBar extends StatefulWidget {
   });
 
   @override
-  CustomNavBarState createState() => CustomNavBarState();
+  FloatingNavBarState createState() => FloatingNavBarState();
 }
 
-class CustomNavBarState extends State<CustomNavBar> {
+class FloatingNavBarState extends State<FloatingNavBar> {
   late int _currentIndex;
   late PageController _pageController;
 

@@ -1,9 +1,9 @@
-name: custom_navbar
+name: floating_navbar
 description: " A customizable bottom navigation bar"
 version: 0.0.1
-homepage: https://github.com/hijaaaazz/custom_navbar
-repository: https://github.com/hijaaaazz/custom_navbar
-issue_tracker: https://github.com/hijaaaazz/custom_navbar/issues
+homepage: https://github.com/hijaaaazz/floating_navbar
+repository: https://github.com/hijaaaazz/floating_navbar
+issue_tracker: https://github.com/hijaaaazz/floating_navbar/issues
 
 environment:
   sdk: ^3.6.1

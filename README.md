@@ -18,9 +18,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```
 dependencies:
-  custom_navbar:
-    git:
-      url: https://github.com/hijaaaazz/custom_navbar.git
+  custom_navbar: latest_version
 ```
 
 Then, run:
